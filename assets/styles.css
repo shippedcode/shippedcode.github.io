@@ -1,0 +1,28 @@
+#logo {
+  width: 50%;
+  margin: 64px 0 16px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+}
+
+.contact::before {
+  content: "hi";
+}
+
+footer {
+  color: #999;
+  margin-top: 60px;
+  font-size: 12px;
+}
